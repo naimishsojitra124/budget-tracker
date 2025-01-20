@@ -1,4 +1,4 @@
-import NavBar from '@/components/nav-bar'
+import NavBar from '@/components/shared/nav-bar'
 import React, { ReactNode } from 'react'
 
 const Layout = ({children}: {children: ReactNode}) => {

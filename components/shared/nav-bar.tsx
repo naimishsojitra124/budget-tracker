@@ -1,14 +1,14 @@
 'use client';
 
 import React, { useState } from 'react';
-import Logo, { LogoMobile } from './shared/logo';
+import Logo, { LogoMobile } from './logo';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
-import { Button, buttonVariants } from './ui/button';
+import { Button, buttonVariants } from '../ui/button';
 import { UserButton } from '@clerk/nextjs';
-import { ModeToggle } from './shared/mode-toggle';
-import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
+import { ModeToggle } from './mode-toggle';
+import { Sheet, SheetContent, SheetTrigger } from '../ui/sheet';
 import { Menu } from 'lucide-react';
 
 const NavBar = () => {
